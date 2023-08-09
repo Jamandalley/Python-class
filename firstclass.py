@@ -18,22 +18,35 @@ string2 = " world!"
 result = string1 + string2
 print(result)  # Output: "Hello world!"
 # 2. List concatenation
+# Using the + operator
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 result = list1 + list2
 print(result)  # Output: [1, 2, 3, 4, 5, 6]
+
+# Using the .extend() method
+list1.extend(list2)  # list1 now contains [1, 2, 3, 4, 5, 6]
+
+#Using Join method: For concatenating large lists, using the .join() method is more efficient than repeatedly using the "+" operator, as the latter creates intermediate objects.
+items = ["apple", "banana", "cherry"]
+result = ", ".join(items)
+print(result)  # Output: "apple, banana, cherry"
+
 # 3. Tupple concatenation
 tuple1 = (1, 2, 3)
 tuple2 = (4, 5, 6)
 result = tuple1 + tuple2
 print(result)  # Output: (1, 2, 3, 4, 5, 6)
+
 # 4. String and variable concatenation
 name = "Alice"
 age = 30
 message = "My name is " + name + " and I am " + str(age) + " years old."
 print(message)  # Output: "My name is Alice and I am 30 years old."
-# 5. Using Join for Concatenating Lists: For concatenating large lists, using the .join() method is more efficient than repeatedly using the "+" operator, as the latter creates intermediate objects.
-items = ["apple", "banana", "cherry"]
-result = ", ".join(items)
-print(result)  # Output: "apple, banana, cherry"
+
+# 5. Dictionary concatenation
+dict1 = {"a": 1, "b": 2}
+dict2 = {"b": 3, "c": 4}
+dict1.update(dict2)  # dict1 now contains {"a": 1, "b": 3, "c": 4}
+
 
