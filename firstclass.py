@@ -27,8 +27,13 @@ tuple1 = (1, 2, 3)
 tuple2 = (4, 5, 6)
 result = tuple1 + tuple2
 print(result)  # Output: (1, 2, 3, 4, 5, 6)
-# String and variable concatenation
+# 4. String and variable concatenation
 name = "Alice"
 age = 30
 message = "My name is " + name + " and I am " + str(age) + " years old."
 print(message)  # Output: "My name is Alice and I am 30 years old."
+# 5. Using Join for Concatenating Lists: For concatenating large lists, using the .join() method is more efficient than repeatedly using the "+" operator, as the latter creates intermediate objects.
+items = ["apple", "banana", "cherry"]
+result = ", ".join(items)
+print(result)  # Output: "apple, banana, cherry"
+
