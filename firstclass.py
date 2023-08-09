@@ -62,4 +62,8 @@ age = 30
 # Using f-string to embed variables in a string
 message = f"My name is {name} and I am {age} years old."
 print(message)
-
+firstName = "Abimbade"
+LastName = "Abolade"
+Age = 20
+print("My name is "+firstName+" "+LastName+" I am "+str(age)+"years old")
+print(f"My name is {firstName} {LastName}, I am {age}years old")
