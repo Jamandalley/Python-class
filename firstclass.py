@@ -9,8 +9,13 @@ Methods of joining variable names in Python
 3. Snake casing: uses undercose after each letter (e.g. first_name_of_Character)""" 
 #Assignnment: Methods of Concatenation, Types of variabes
 
-#Data types in Python
-# 1. 
+"""Data types in Python
+1. Numeric (integer, float, complex)
+2. Dictionary 
+3. Boolean
+4. Set
+5. Sequence type (strings, list and tuple)
+"""
 # Concatenation in Python
 # 1. String concatenation
 string1 = "Hello"
