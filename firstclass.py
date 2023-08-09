@@ -52,6 +52,14 @@ print(message)  # Output: "My name is Alice and I am 30 years old."
 # 5. Dictionary concatenation
 dict1 = {"a": 1, "b": 2}
 dict2 = {"b": 3, "c": 4}
-dict1.update(dict2)  # dict1 now contains {"a": 1, "b": 3, "c": 4}
+dict1.update(dict2) # dict1 now contains {"a": 1, "b": 3, "c": 4}
+print(dict1.update(dict2)) 
 
+# F-string concatenation: F-strings, also known as formatted string literals, are a feature introduced in Python 3.6 that provide a concise and convenient way to embed expressions inside string literals. F-strings are defined by prefixing a string literal with the letter "f" or "F" and then enclosing the expressions to be evaluated in curly braces {}.
+name = "Jamandalley"
+age = 30
+
+# Using f-string to embed variables in a string
+message = f"My name is {name} and I am {age} years old."
+print(message)
 
