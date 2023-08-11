@@ -1,7 +1,7 @@
 print ("Welcome to the first version")
 print ("This space will be used by Jamandalley")
 """ Variables declarations
-Variabke can only use alphanumeric characters
+Variable can only use alphanumeric characters
 Case-sensitive
 Methods of joining variable names in Python
 1. Pascal-style names: (e.g. FristNameOfCharacters)
@@ -62,8 +62,11 @@ age = 30
 # Using f-string to embed variables in a string
 message = f"My name is {name} and I am {age} years old."
 print(message)
+message[2]
+
 firstName = "Abimbade"
 LastName = "Abolade"
 Age = 20
 print("My name is "+firstName+" "+LastName+" I am "+str(age)+"years old")
 print(f"My name is {firstName} {LastName}, I am {age}years old")
+
