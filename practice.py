@@ -1,3 +1,6 @@
+a = 5
+b = 3
+c = complex(a, b)
 name = "Alice"
 age = 30
 message_1= "My name is " + name + " and I am " + str(age) + " years old."
@@ -64,3 +67,50 @@ z = "awesome"
 print(x, y, z)
 print(x +" "+ y +" " + z)
 
+# COMPLEX NUMBERS 
+a = 1
+b = 2
+c = 3j
+d = 4j
+z = complex(a, b)
+print(z)
+print(end="")
+print(z.real)
+
+
+# Python code to demonstrate the working of
+# complex(), real() and imag()
+
+# importing "cmath" for complex number operations
+import cmath
+
+# Initializing real numbers
+x = 5
+y = 3
+
+# converting x and y into complex number
+z = complex(x,y);
+
+# printing real and imaginary part of complex number
+print ("The real part of complex number is : ", end="")
+print (z.real)
+
+print ("The imaginary part of complex number is : ", end="")
+print (z.imag)
+
+# Python code to demonstrate the working of
+# phase()
+
+# importing "cmath" for complex number operations
+import cmath
+
+# Initializing real numbers
+x = -1.0
+y = 0.0
+
+# converting x and y into complex number
+z = complex(x,y);
+
+# printing phase of a complex number using phase()
+print ("The phase of complex number is : ",end="")
+print (cmath.phase(z))
