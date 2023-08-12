@@ -114,3 +114,10 @@ z = complex(x,y);
 # printing phase of a complex number using phase()
 print ("The phase of complex number is : ",end="")
 print (cmath.phase(z))
+temp = eval(input('Enter a temperature in Celsius: '))
+f_temp = 9/5*temp+32
+print('In Fahrenheit, that is', f_temp)
+# Ask the user to enter a number x. Use the sep optional argument to print out x, 2x, 3x, 4x, and 5x, each separated by three dashes
+num1 = eval(input('Enter a number: '))
+print("The number you enetered is", num1)
+print(num1, 2*num1, 3*num1, 4*num1, 5*num1, sep="---")
